@@ -102,7 +102,7 @@ export const TEXT = {
                 <br/><br/>
                 &#8226; Regista
                         <ol> 
-                            <li> Christopher Nolan (ha diretto pellicole quali Inception, Interstellar e Tenet) </li>
+                            <li> Christopher Nolan (ha diretto pellicole quali "Inception", "Interstellar" e "Tenet") </li>
                             <li> Tim Burton (ha diretto pellicole quali "Edward Mani di Forbice", "Nightmare before Christmas" e "La Fabbrica di Cioccolato")  </li>
                             <li> Steven Spielberg (ha diretto film quali "Ritorno al Futuro", "E.T. l'extraterrestre" e "Salvate il Soldato Ryan")  </li>
                         </ol>
