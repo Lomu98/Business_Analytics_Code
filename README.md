@@ -1,7 +1,5 @@
 ## Conjoint Based Choice Survey
 
-Boiler template for creating conjoint choice based survey completely for free.
+Conjoint choice based survey for the Lab of Customer and Business Analytics of the MSc in Data Science of the University of Trento.
 
-I published an article on medium exaplaining how replicate and create you own survey.
-
-Have a look at [Conjoint Choice Based Survey Boiler Template](https://medium.com/@gabriele.ghisleni01/conjoint-choice-based-survey-ac47b933bd3b). 
+Based on the template provided by Gabriele Ghisleni and explained at [Conjoint Choice Based Survey Boiler Template](https://medium.com/@gabriele.ghisleni01/conjoint-choice-based-survey-ac47b933bd3b). 
