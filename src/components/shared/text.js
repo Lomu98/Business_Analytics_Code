@@ -1,174 +1,72 @@
 
 export const TEXT = {
     en: {
-        title: <span>Economies</span>,
+        title: <span>A new film production</span>,
         description: (
             <span>
-                Hi, thanks for being here.
+                We would like to thank you for taking part in this survey.
                 <br />
-                The following questions are designed to understand which may be the most important characteristics for a brand new movie.
-                Each question consists in choosing the best movie among three possible options. 
-                Each of these options is defined by features or characteristics, which are explained below.
-
-                <br />
-                These features are:
+                You will be asked to choose your favorite combination of attributes among 3 different options.
+                The survey will take approximately 5 minutes. Some attributes will be explained below.
+                Disclaimer: We consider you to be already subscribed to an online streaming platform, for which you regularly pay.
                 <br/><br/>
                 &#8226; Director
                         <ol> 
-                            <li> Christopher Nolan (who directed movies such as "Inception", "Interstellar" and "Tenet") </li>
-                            <li> Tim Burton (who directed movies such as "Edward Scissorhands", "Nightmare Before Christmas" and "Charlie and the Chocolate Factory")  </li>
-                            <li> Steven Spielberg (who directed movies such as "Back to the Future", "E.T. the Extra-Terrestrial" and "Saving Private Ryan")  </li>
+                            <li> Christopher Nolan (who made movies such as "Inception", "Interstellar" and "Tenet") </li>
+                            <li> Tim Burton (who made movies such as "Edward Scissorhands", "Nightmare Before Christmas" and "Charlie and the Chocolate Factory")  </li>
+                            <li> Steven Spielberg (who made movies such as "E.T. the Extra-Terrestrial", "Jurassic Park" and "Saving Private Ryan")  </li>
                         </ol>
                     <br/>
-                    &#8226; Type of film
+                    &#8226;  Saga
                         <ol> 
-                            <li> Animation film </li>
-                            <li> Real-characters film  </li>
+                            <li> Yes (more than 1 film will be produced) </li>
+                            <li> No (only one movie will be produced) </li>
                         </ol>
-                    <br/>
-                    <br/>
-                    &#8226; Type of characters
-                        <ol> 
-                            <li> Humans </li>
-                            <li> Animals  </li>
-                            <li> Robot/androids/humanoids  </li>
-                        </ol>
-                    <br/>
-                    &#8226;  Genre
-                        <ol>
-                            <li> Science-fiction </li>
-                            <li> Thriller </li>
-                            <li> Adventure </li>
-                        </ol>
-                    <br/>
-                    &#8226;  Geographical setting
-                        <ol> 
-                            <li> United States of America </li>
-                            <li> Europe </li>
-                            <li> Japan </li>
-                            <li> Mars (yes, the red planet itself) </li>
-                        </ol>
-                    <br/>
-                    &#8226;  Temporal collocation
-                        <ol> 
-                            <li> End of the 19th century  </li>
-                            <li> 2022 </li>
-                            <li> 2100 </li>
-                        </ol>
-                    <br/>
-                    &#8226;  Number of movies
-                        <ol> 
-                            <li> Only one film </li>
-                            <li> Film saga (2 movies or more) </li>
-                        </ol>
-                    <br/>
-                    <br/>
-                    &#8226;  Duration of the film
-                        <ol> 
-                            <li> 1 hour and 40 minutes </li>
-                            <li> 2 hours </li>
-                            <li> 2 hours and 20 minutes </li>
-                        </ol>
-                    <br/>
                     <br/>
                     &#8226;  First viewing
                         <ol> 
-                            <li> Cinema (allows you, at the ticket price, to see it as soon as it comes out) </li>
-                            <li> Platforms (allows you to watch it for free - assuming you are already regularly subscribed to the platform - but late compared to the release in theaters) </li>
+                            <li> Cinema (it allows you to see the film as soon as it comes out, but you have to pay the ticket,approximately 8€) </li>
+                            <li> Platforms (you can watch the movie for free but later compared to the release in theaters) </li>
                         </ol>
                     <br/>
-                
-                The time to complete the form is estimated ~ 10 m.
+                    <br/>
             </span>
-        ),
-        h2: <span>Video Tutorial</span>,
-        url: "https://www.youtube.com/embed/9jusKbecLaQ",
+        )
     },
 
     // /////////////////////////////////////////////////////////// IT
     it: {
-        title: <span>Economies</span>,
+        title: <span>La produzione di un nuovo film</span>,
         description: (
             <span>
-                Ciao, grazie per essere qui.
+                Ci teniamo a ringraziarvi per prendere parte al nostro sondaggio.
                 <br />
-                Le seguenti domande sono pensate per comprendere quali possano essere 
-                le caratteristiche più importanti per un nuovo film.
-                Ogni domanda consiste nella scelta del migliore
-                film fra tre possibili opzioni. Ognuna di queste opzioni viene definita
-                da delle features o caratteristiche, di seguito spiegate.
-                <br />
-                Le features (caratteristiche che variano tra le opzioni) sono:
+                Nel seguente sondaggio vi verrà chiesto di scegliere la vostra combinazione preferita di caratteristiche tra 
+                le 3 opzioni proposte. Il sondaggio vi richiederà 5 minuti all’incirca. Alcuni attributi sono spiegati di 
+                seguito.
+                Disclaimer: partiamo dal presupposto che voi siate già iscritti ad una piattaforma di streaming online.
                 <br/><br/>
                 &#8226; Regista
                         <ol> 
                             <li> Christopher Nolan (ha diretto pellicole quali "Inception", "Interstellar" e "Tenet") </li>
                             <li> Tim Burton (ha diretto pellicole quali "Edward Mani di Forbice", "Nightmare before Christmas" e "La Fabbrica di Cioccolato")  </li>
-                            <li> Steven Spielberg (ha diretto film quali "Ritorno al Futuro", "E.T. l'extraterrestre" e "Salvate il Soldato Ryan")  </li>
-                        </ol>
-                    <br/>
-                    &#8226; Tipologia di film
-                        <ol> 
-                            <li> Film d'animazione </li>
-                            <li> Film con personaggi reali  </li>
-                        </ol>
-                    <br/>
-                    <br/>
-                    &#8226; Tipologia di personaggi
-                        <ol> 
-                            <li> Umani </li>
-                            <li> Animali  </li>
-                            <li> Robot/androidi/umanoidi  </li>
-                        </ol>
-                    <br/>
-                    &#8226;  Genere cinematografico
-                        <ol>
-                            <li> Fantascienza </li>
-                            <li> Thriller </li>
-                            <li> Avventura </li>
-                        </ol>
-                    <br/>
-                    &#8226;  Ambientazione geografica
-                        <ol> 
-                            <li> Stati Uniti d'America </li>
-                            <li> Europa </li>
-                            <li> Giappone </li>
-                            <li> Marte (sì, proprio il pianeta rosso) </li>
-                        </ol>
-                    <br/>
-                    &#8226;  Collocazione temporale
-                        <ol> 
-                            <li> Fine 1800  </li>
-                            <li> 2022 </li>
-                            <li> 2100 </li>
+                            <li> Steven Spielberg (ha diretto film quali "E.T. l'extraterrestre", "Jurassic Park" e "Salvate il Soldato Ryan")  </li>
                         </ol>
                     <br/>
                     &#8226;  Numero di film
                         <ol> 
-                            <li> Film unico </li>
-                            <li> Saga (2 o più film) </li>
+                            <li> Sì (verrà prodotto più di un film) </li>
+                            <li> No (verrà prodotto solo un film) </li>
                         </ol>
-                    <br/>
-                    <br/>
-                    &#8226;  Durata della pellicola
-                        <ol> 
-                            <li> 1 ora e 40 minuti </li>
-                            <li> 2 ore </li>
-                            <li> 2 ore e 20 minuti </li>
-                        </ol>
-                    <br/>
                     <br/>
                     &#8226;  Prima visione
                         <ol> 
-                            <li> Cinema (consente, al prezzo del biglietto, di vederlo all'uscita ufficiale) </li>
-                            <li> Piattaforme (consente di fruirne gratuitamente - immaginando di essere già regolarmente abbonati alla piattaforma - ma in ritardo rispetto all'uscita nelle sale) </li>
+                            <li> Cinema (ti permette di vedere il film appena esce, ma dovrai pagare il prezzo del biglietto, 8€ circa) ) </li>
+                            <li> Piattaforme (puoi guardare il film senza costi aggiuntivi ma dovrai aspettare più tempo rispetto all’uscita nei cinema) </li>
                         </ol>
                     <br/>
-                
-               Il tempo di completamento del form è di circa 10 minuti.
+                    <br/>
             </span>
         ),
-        h2: <span>Video Tutorial</span>,
-        url: "https://www.youtube.com/embed/9jusKbecLaQ",
     },
 };
