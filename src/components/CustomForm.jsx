@@ -1,4 +1,4 @@
-import { Button, Row, Col, Container } from "reactstrap";
+import { Button, Row, Col, Container, Input, Label, FormGroup, Form } from "reactstrap";
 import toast, { Toaster } from 'react-hot-toast';
 import React, { useState, useEffect } from 'react'
 import { SETTINGS } from "./shared/settings"
@@ -55,8 +55,14 @@ const CustomForm = (props) => {
                 selected.has(r.id)? r.isChoiced = 1: r.isChoiced = 0
                 return r
             })
-
-            axios.get(SETTINGS.jsonbin+"latest")
+            
+            for (let i = 0; i < FRESH_DATA.length; i++){
+                FRESH_DATA[i].gender = gender
+                FRESH_DATA[i].age = age
+            }
+            
+            console.log(FRESH_DATA)
+            axios.get(SETTINGS.jsonbin+"/latest")
                 .then(res => {
                     var prev = res.data
                     prev.push(FRESH_DATA)
@@ -158,13 +164,53 @@ const CustomForm = (props) => {
   
     }
 
-
+    const [gender, setgender] = useState("M");
+    const [age, setage] = useState(null);
     return (
         <Container className='text-center question-container'>
              <Toaster />
             <h1 className='questionario-title' id='title'>
                 {props.lang==='it'? <span>Questionario</span>: <span>Survey</span> }
             </h1>
+            <Form style={{marginTop:"40px", padding:"5px"}}>
+                <Row justify-content-center align-items-center>
+                <Col xs='6'>
+                <FormGroup >
+                    <Col xs='6'><Label>{props.lang==='it'?<p>Specifica la tua età</p>
+                        :<p>Select your age</p>}</Label></Col>
+                    <Col xs='12'>
+                    <Input
+                        key="age"
+                        name="age"
+                        id="age"
+                        type="number"
+                        placeholder="insert your age"
+                        onChange={e => setage(e.target.value)}
+                        value={age || "insert your age"}
+                        className="form-control"/>
+                    </Col>
+                </FormGroup></Col>
+                
+                <Col xs=''>
+                <FormGroup>
+                    <Col xs='6'><Label>{props.lang==='it'?<p>Genere</p>
+                        :<p>Gender</p>}</Label></Col>
+                    <Col xs='12'>
+                    <Input
+                        name="gender"
+                        id="gender"
+                        type="select"
+                        placeholder="insert your gender"
+                        onChange={e => setgender(e.target.value)}
+                        value={gender || "select your gender"}
+                        className="form-control">
+                    <option value='M'>M</option>
+                    <option value='F'>F</option>
+                    <option value='Others'>Others</option>
+                    </Input></Col>
+                </FormGroup>
+                </Col>
+            </Row></Form>
             {trial}
             <Col className='col-final-submit'>
                 <Button color='success' className='btn-go-form' onClick={()=>onFinalSubmit()}>

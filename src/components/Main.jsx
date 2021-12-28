@@ -1,7 +1,7 @@
 import React, {  Component } from 'react'
 import { Container }from 'reactstrap'
 
-import * as data from './shared/data.json';
+import * as data from './shared/data_survey_r.json';
 import * as axios from 'axios'
 import CustomForm from './CustomForm'
 import shuffle_data from './shuffle';
@@ -17,9 +17,11 @@ class  Main extends Component {
 
     changeLang(val){this.setState({lang:val})}
     componentDidMount(){
-        // axios.get(SETTINGS.jsonbin+"latest")
+        // axios.get(SETTINGS.jsonbin+"/latest")
         // .then(res => "")
-        // .catch(e => {alert("JSON BIN WRONG")})
+        // .catch(e => {
+        //     alert("JSON BIN WRONG")
+        // console.log(e)})
     }
     
     render() { 

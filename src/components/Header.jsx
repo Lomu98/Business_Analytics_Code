@@ -1,7 +1,6 @@
 import ReactCountryFlag from "react-country-flag"
 import { Row, Col, Button } from 'reactstrap'
 import { TEXT } from './shared/text'
-import Iframe from 'react-iframe'
 import React from 'react'
 
 const Header = (props) => {
