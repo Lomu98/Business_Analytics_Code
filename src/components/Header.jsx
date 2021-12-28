@@ -26,7 +26,7 @@ const Header = (props) => {
                     </Col>
                     <Col xs='12' className='home-description-text'><hr />{TEXT[props.lang].description}<hr /></Col>
                     <Col xs='12' className='text-center button-go-form'>
-                        <hr />
+                    
                         <Button color='success' className="btn-go-form" onClick={() => { document.getElementById('title').scrollIntoView({ behavior: "smooth" }) }}>
                             {props.lang === 'it' ? <span>Vai al questionario</span> : <span>Go to the Survey</span>}
                         </Button>
